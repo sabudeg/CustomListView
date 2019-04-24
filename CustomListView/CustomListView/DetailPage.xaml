@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomListView.DetailPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label x:Name="title"  Text="Detail Page - " FontAttributes="Bold" FontSize="Medium"/>
+            <Label x:Name="foodLabel" Text="Name: "/>
+            <Label x:Name="categoryLabel" Text="Category: " />
+            <Image x:Name="imageFood" WidthRequest="200" HeightRequest="200"/>
+            <Button x:Name="dismissButton" Clicked="OnButtonClicked" Text="Dismiss" />
+            <Label x:Name="detailLabel" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
